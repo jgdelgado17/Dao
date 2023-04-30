@@ -80,7 +80,7 @@ public class PersonaImpl extends Conexion implements DaoPersona {
     }
 
     @Override
-    public Persona buscarPorId(int id) throws Exception {
+    public Persona buscarPorId(Integer id) throws Exception {
         Persona persona = null;
         try {
             this.conectar();
